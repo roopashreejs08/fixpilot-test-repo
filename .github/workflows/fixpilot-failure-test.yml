@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate diagnostic log
-        run: echo "FixPilot test: intentional failure triggered"
+        run: echo "FixPilot failure test triggered"
 
       - name: Fail deliberately
         run: |
