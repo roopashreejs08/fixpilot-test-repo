@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Generate test log
         run: echo "FixPilot test: intentional failure"
+
       - name: Simulate a failure
         run: |
           echo "ERROR: Simulated test failure for FixPilot investigation"
