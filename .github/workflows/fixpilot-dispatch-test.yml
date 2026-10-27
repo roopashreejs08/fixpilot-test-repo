@@ -1,0 +1,11 @@
+name: FixPilot Dispatch Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify dispatch
+        run: echo "FixPilot dispatch test started successfully"
